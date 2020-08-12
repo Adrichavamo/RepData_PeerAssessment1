@@ -2,7 +2,8 @@
 title: 'Reproducable Research: Course Project 1'
 author: "Adrián Chavarría Mora "
 date: "August 11, 2020"
-output: html_document
+output: 
+        md_document: default
 ---
 
 
@@ -80,7 +81,9 @@ repository state.
 NOTE: The GitHub repository also contains the dataset for the
 assignment so you do not have to download the data separately.
 
-
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=TRUE)
+```
 
 ### Loading and preprocessing the data
 
